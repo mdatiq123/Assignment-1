@@ -21,7 +21,6 @@ nav {
 .menu ul {
     display: flex;
     gap: 32px;
-    /* text-decoration: none; */
 
 }
 
@@ -47,27 +46,27 @@ nav {
     background: url("assets/hero-bg.png");
     background-repeat: no-repeat;
     background-size: cover;
+    margin: 0 auto;
 
 
 }
 
 #banner .banner-container {
-    margin: 0 auto;
-    /* position: relative; 
+    position: relative; 
     display: flex;
     flex-direction: column;
-    gap: 12px; */
-    /* max-width: 770px; */
+    justify-content: center;
+    gap: 12px;
     max-width: 827px;
     width: 71%;
-    /* margin: 0 auto; */
+    margin: 0 auto;
 }
 
 #banner .banner-container .pointer {
     background-color: #FFFFFF;
     border-radius: 23px;
     padding: 8px 12px;
-    margin: 0 auto;
+    margin:0 auto;
     color: #469165;
     font-size: 16px;
     font-weight: 600;
@@ -77,11 +76,14 @@ nav {
 
 #banner .banner-container .banner-heading {
     margin: 0 auto;
-    /* text-align: center; */
     font-size: 72px;
-    /* font-weight: bold; */
-    /* line-height: 84px; */
     white-space: nowrap;
+}
+.banner-heading h1{
+    font-size: 72px;
+    font-weight: bold;
+    text-align: center;
+    margin: 0 auto;
 }
 
 #banner .banner-container .banner-heading h2 {
@@ -90,7 +92,7 @@ nav {
     font-weight: bold;
     margin-right: 50%;
     margin-bottom: 30px;
-    margin: 0 auto;
+    margin: 0 263px;
 }
 
 .green {
@@ -113,6 +115,8 @@ nav {
     justify-content: center;
     align-items: center;
     gap: 16px;
+    margin: 0 auto;
+    text-align: center;
 }
 
 .banner-container .banner-btn .btn1 {
@@ -126,6 +130,7 @@ nav {
     color: #FFFFFF;
     border: 2px solid #FFFFFF;
     border-radius: 4px;
+    text-align: center;
 }
 
 .banner-container .banner-btn .btn {
@@ -150,8 +155,9 @@ nav {
 
 #notes .section-heading {
     display: flex;
+    flex-direction: column;
     text-align: center;
-    justify-content: center;
+    justify-content: space-between;
 }
 
 .section-heading h2 {
@@ -248,4 +254,81 @@ nav {
 .artical ul{
      list-style-image: url('assets/CheckCircle.png');
      padding-left: 26px;
+}
+
+#early-access{
+ 
+}
+
+.earlyAccess-container{
+    max-width: 1360px;
+    background-color: #F7F6F2;
+    padding: 80px 40px;
+    margin: 0 auto;
+    border-radius: 12px;
+    margin-bottom: 120px;
+}
+.earlyAccess-container h1{
+    color: #001931;
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 16px;
+    text-align: center;
+}
+.earlyAccess-container p{
+    font-size: 16px;
+    line-height: 12px;
+    text-align: center;
+    margin-bottom: 24px;
+    padding: 80px 40px;
+    color: #627382;
+}
+#early-btn{
+    margin: 0 auto;
+    text-align: center;
+    display: flex;
+}
+
+#footer{
+    background-color: #001931;
+    padding: 120px;
+}
+.footer-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 auto;
+    margin-bottom: 80px;
+}
+.footer-container .image img{
+    width: 139px;
+    /* padding-right: 211px; */
+    margin-left: 33px;
+}
+.footer-container .social{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    align-items: center;
+}
+.footer-container .social p{
+    color:#FFFFFF ;
+    font-size:20px ;
+    font-weight:600 ;
+}
+
+.social-icons {
+    display: flex;
+    gap: 16px;
+}
+.footer-container hr{
+    width: 1360px;
+    margin: auto;
+}
+
+.footer-text p{
+    color: #FAFAFA;
+    margin: 30px 120px;
+    font-size: 16px;
+    text-align: center;
 }
