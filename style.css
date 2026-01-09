@@ -1,12 +1,14 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-body{
+
+body {
     font-family: "Inter", sans-serif;
 }
-nav{
+
+nav {
     /* border: 1px solid black; */
     display: flex;
     color: #FFFFFF;
@@ -15,19 +17,22 @@ nav{
     padding: 16px 120px;
 
 }
-.menu ul{
+
+.menu ul {
     display: flex;
     gap: 32px;
     /* text-decoration: none; */
 
 }
-.menu ul a{
+
+.menu ul a {
     text-decoration: none;
     color: #000000;
-    font-size:16px ;
-    font-weight: 500  ;
+    font-size: 16px;
+    font-weight: 500;
 }
-.btn{
+
+.btn {
     background-color: #469165;
     padding: 12px 16px;
     border-radius: 4px;
@@ -36,15 +41,17 @@ nav{
     font-size: 16px;
     font-weight: 600;
 }
-#banner{
+
+#banner {
     padding: 115px 415px;
     background: url("assets/hero-bg.png");
     background-repeat: no-repeat;
-    background-size:cover;
-    
-    
+    background-size: cover;
+
+
 }
-#banner .banner-container{
+
+#banner .banner-container {
     margin: 0 auto;
     /* position: relative; 
     display: flex;
@@ -55,7 +62,8 @@ nav{
     width: 71%;
     /* margin: 0 auto; */
 }
-#banner .banner-container .pointer{
+
+#banner .banner-container .pointer {
     background-color: #FFFFFF;
     border-radius: 23px;
     padding: 8px 12px;
@@ -66,54 +74,178 @@ nav{
     white-space: nowrap;
     width: 229px;
 }
-#banner .banner-container .banner-heading{
+
+#banner .banner-container .banner-heading {
     margin: 0 auto;
     /* text-align: center; */
     font-size: 72px;
     /* font-weight: bold; */
     /* line-height: 84px; */
-     white-space: nowrap;
+    white-space: nowrap;
 }
-#banner .banner-container .banner-heading h2{
+
+#banner .banner-container .banner-heading h2 {
     font-size: 35px;
     max-width: 770px;
     font-weight: bold;
     margin-right: 50%;
     margin-bottom: 30px;
-    margin: 0 auto;}
-.green{
+    margin: 0 auto;
+}
+
+.green {
     color: #30B868;
 }
-#banner .banner-container .banner-text{
+
+#banner .banner-container .banner-text {
     text-align: center;
-    font-size:18px ;
-    font-weight:normal ;
-    color:#FFFFFF ;
+    font-size: 18px;
+    font-weight: normal;
+    color: #FFFFFF;
     line-height: 24px;
     margin-top: 16px;
     margin-bottom: 32px;
 }
-.banner-container .banner-btn{
+
+.banner-container .banner-btn {
     width: 465px;
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 16px;
 }
-.banner-container .banner-btn .btn1{
+
+.banner-container .banner-btn .btn1 {
     width: 198px;
     padding: 12px;
     /* background-color: none; */
     height: 52px;
-    background: transparent; 
+    background: transparent;
     font-size: 16px;
     font-weight: 500;
     color: #FFFFFF;
     border: 2px solid #FFFFFF;
     border-radius: 4px;
 }
-.banner-container .banner-btn .btn{
+
+.banner-container .banner-btn .btn {
     white-space: nowrap;
     border-radius: 4px;
-    
+
+}
+
+.icon {
+   background: red;
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+}
+
+#notes {
+    margin: 0 auto;
+    margin-bottom: 71px;
+}
+
+#notes .section-heading {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.section-heading h2 {
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    padding: 48px;
+    font-size: 48px;
+    color: #001931;
+    margin-top: 36px;
+}
+
+.section-heading p {
+    display: flex;
+    justify-content: center;
+    font-size: 16px;
+    color: #627382;
+    margin-bottom: 44px;
+}
+
+.note-info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+}
+
+.note-card {
+    max-width: 332px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    height: 300px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 8px;
+    box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.06);
+}
+
+.note-card img {
+    width: 60px;
+}
+
+.note-card h3 {
+    color: #001931;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.note-card p {
+    color: #627382;
+    font-size: 16px;
+}
+.icon img{
+    width: 32px;
+    margin: 0 auto;
+}
+#brain{
+   margin-left: 348px ;
+}
+.brain-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 120px;
+    gap: 167px;
+}
+.artical{
+    padding: 94px 0 94px 60px;
+}
+.artical h5{
+    color: #469165;
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 16px;
+}
+.artical h1{
+    font-size:48px ;
+    font-weight:bold ;
+    color:#001931 ;
+     margin-bottom: 16px;
+}
+#solution{
+    margin-bottom: 0;
+}
+.artical p{
+    color: #627382;
+    font-size:16px ;
+    line-height: 20px;
+    margin-bottom: 55px;
+    padding-right: 478px;
+}
+.artical ul{
+     list-style-image: url('assets/CheckCircle.png');
+     padding-left: 26px;
 }
