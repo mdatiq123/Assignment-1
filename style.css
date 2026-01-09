@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Inter", sans-serif;
+}
+nav{
+    /* border: 1px solid black; */
+    display: flex;
+    color: #FFFFFF;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px 120px;
+
+}
+.menu ul{
+    display: flex;
+    gap: 32px;
+    /* text-decoration: none; */
+
+}
+.menu ul a{
+    text-decoration: none;
+    color: #000000;
+    font-size:16px ;
+    font-weight: 500  ;
+}
+.btn{
+    background-color: #469165;
+    padding: 12px 16px;
+    border-radius: 4px;
+    border: none;
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 600;
+}
+#banner{
+    padding: 115px 415px;
+    background: url("assets/hero-bg.png");
+    background-repeat: no-repeat;
+    background-size:cover;
+    
+    
+}
+#banner .banner-container{
+    margin: 0 auto;
+    /* position: relative; 
+    display: flex;
+    flex-direction: column;
+    gap: 12px; */
+    /* max-width: 770px; */
+    max-width: 827px;
+    width: 71%;
+    /* margin: 0 auto; */
+}
+#banner .banner-container .pointer{
+    background-color: #FFFFFF;
+    border-radius: 23px;
+    padding: 8px 12px;
+    margin: 0 auto;
+    color: #469165;
+    font-size: 16px;
+    font-weight: 600;
+    white-space: nowrap;
+    width: 229px;
+}
+#banner .banner-container .banner-heading{
+    margin: 0 auto;
+    /* text-align: center; */
+    font-size: 72px;
+    /* font-weight: bold; */
+    /* line-height: 84px; */
+     white-space: nowrap;
+}
+#banner .banner-container .banner-heading h2{
+    font-size: 35px;
+    max-width: 770px;
+    font-weight: bold;
+    margin-right: 50%;
+    margin-bottom: 30px;
+    margin: 0 auto;}
+.green{
+    color: #30B868;
+}
+#banner .banner-container .banner-text{
+    text-align: center;
+    font-size:18px ;
+    font-weight:normal ;
+    color:#FFFFFF ;
+    line-height: 24px;
+    margin-top: 16px;
+    margin-bottom: 32px;
+}
+.banner-container .banner-btn{
+    width: 465px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+}
+.banner-container .banner-btn .btn1{
+    width: 198px;
+    padding: 12px;
+    /* background-color: none; */
+    height: 52px;
+    background: transparent; 
+    font-size: 16px;
+    font-weight: 500;
+    color: #FFFFFF;
+    border: 2px solid #FFFFFF;
+    border-radius: 4px;
+}
+.banner-container .banner-btn .btn{
+    white-space: nowrap;
+    border-radius: 4px;
+    
+}
